@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    font-family: "Inter";
+
+
+}
+
+#div1{
+    background-color: #303030;
+    padding: 10px;
+}
+
+#div2{
+    padding: 75px;
+    background-color: #fdf5f5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulo1{
+    margin-top: 200px;
+    margin-left: 200px;
+    color:#FFFFFF ;
+    font-size: 55px;   
+}
+
+#paragrafo1{
+    margin: 25px 0px 100px 200px;
+    color:#FFFFFF ;
+    font-size: 25px;
+}
+
+#sub1{
+    margin: 50px 0px 0px -240px;
+}
+
+#sub2{
+    margin: 50px 0px 0px -175px;
+}
+
+#sub3{
+    margin: 50px 0px 0px -285px;
+}
+
+.titlediv1{
+  margin: 0px 50px 0px 220px;
+ }
+
+ #div3{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+ }
+
+#arquiteto{
+    margin: 250px 75px 0px 125px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+#textoarquiteto{
+    margin: 50px 75px 0px 125px;
+    font-size: 24px;
+}
+
+#foto1{
+    margin: 100px 0px 50px -75px;
+}
+
+#div4{
+    background-color: #303030;
+    text-align: center;
+    
+}
+
+#titulodiv4{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+
+}
+
+
+
+input{
+    Width: 350px;
+    Height: 40px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 0px;
+    padding-left: 10px;
+}
+
+button{  
+    width: 250px; 
+    Height: 50px;
+    background-color:  #C07212;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.7ms;
+    box-shadow: 0px 15px 20px  #97652450; 
+}
